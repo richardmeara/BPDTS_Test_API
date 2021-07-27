@@ -12,7 +12,7 @@ The build and releases were produced using Azure DevOps, with the source code ho
 
 ## Building, testing and deploying
 
-The .NET solution contains 2 projects: An API and a test project. The test project contains basic unit tests to ensure the controller logic is correct. It does not use the live API, and instead uses fake data.
+The .NET solution contains 2 projects: An API and a test project. The test project contains basic unit tests to ensure the controller and service logic is correct. It does not use the live API, and instead uses fake data.
 
 The build and test definition is in the file at the root directory:
 
